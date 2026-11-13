@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reddy Matka Information</title>
+
+<style>
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ background:#080808;
+ color:white;
+ font-family:Arial,sans-serif;
+ padding:12px;
+}
+
+.container{
+ max-width:420px;
+ margin:auto;
+}
+
+.hero{
+ text-align:center;
+ padding:30px 15px;
+ background:linear-gradient(145deg,#241900,#090909);
+ border:1px solid #c99b35;
+ border-radius:15px;
+}
+
+.logo{
+ font-size:30px;
+ font-weight:bold;
+ color:#f3c45b;
+}
+
+.subtitle{
+ color:#ccc;
+ font-size:13px;
+ margin-top:12px;
+}
+
+.card{
+ background:#15120b;
+ border:1px solid #73551c;
+ border-radius:12px;
+ padding:20px;
+ margin-top:16px;
+ text-align:center;
+}
+
+.card h2{
+ color:#f3c45b;
+ margin-bottom:12px;
+}
+
+.card p{
+ color:#ccc;
+ font-size:14px;
+ line-height:1.7;
+}
+
+/* GREEN SHINE BUTTON */
+
+.website-btn{
+ display:block;
+ position:relative;
+ overflow:hidden;
+ text-decoration:none;
+ background:linear-gradient(90deg,#00a83b,#00ff72,#00a83b);
+ background-size:200% auto;
+ color:#001b09;
+ font-weight:bold;
+ font-size:17px;
+ padding:17px;
+ border-radius:10px;
+ margin-top:20px;
+ box-shadow:0 0 15px #00ff6677;
+ animation:glow 2s infinite alternate;
+}
+
+.website-btn::before{
+ content:"";
+ position:absolute;
+ top:0;
+ left:-120%;
+ width:60%;
+ height:100%;
+ background:linear-gradient(
+  120deg,
+  transparent,
+  rgba(255,255,255,.85),
+  transparent
+ );
+ transform:skewX(-25deg);
+ animation:shine 2.5s infinite;
+}
+
+@keyframes shine{
+ 0%{left:-120%}
+ 60%,100%{left:150%}
+}
+
+@keyframes glow{
+ from{box-shadow:0 0 8px #00ff6688}
+ to{box-shadow:0 0 25px #00ff88}
+}
+
+.notice{
+ color:#aaa;
+ font-size:12px;
+ line-height:1.6;
+ margin-top:20px;
+ text-align:center;
+}
+
+.footer{
+ text-align:center;
+ color:#777;
+ font-size:12px;
+ margin-top:25px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div class="hero">
+ <div class="logo">REDDY MATKA</div>
+ <p class="subtitle">
+ Official Website Information Portal
+ </p>
+</div>
+
+<div class="card">
+ <h2>Welcome</h2>
+ <p>
+ Welcome to Reddy Matka Information Page.
+ Visit the website to view its available
+ information and details.
+ </p>
+
+ <a class="website-btn"
+ href="https://reddymatka.rajaada.com/"
+ target="_blank"
+ rel="noopener noreferrer">
+ VISIT WEBSITE →
+ </a>
+</div>
+
+<div class="card">
+ <h2>Important Notice</h2>
+ <p>
+ This page is for informational purposes only.
+ Please verify applicable local laws before
+ accessing any gaming or betting-related services.
+ </p>
+</div>
+
+<div class="notice">
+ 18+ ONLY | Please play responsibly.<br>
+ No guarantee of winnings.
+</div>
+
+<div class="footer">
+ © 2026 Reddy Matka
+</div>
+
+</div>
+</body>
+</html>
